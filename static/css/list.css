@@ -1,0 +1,39 @@
+/* Center the page title */
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto; /* Center horizontally */
+}
+
+/* Style individual blog posts and center them */
+.post {
+    margin: 20px auto; /* Center horizontally */
+    padding: 10px;
+    background-color: yellow;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Set a maximum width for the post */
+}
+
+.post h2 {
+    font-size: 24px;
+    text-align: center; /* Center the heading */
+}
+
+.post .date {
+    font-size: 14px;
+    color: #666;
+    text-align: center; /* Center the date */
+}
+
+.post .post-body {
+    margin-top: 10px;
+    text-align: center; /* Center the post body */
+}
+
+/* Center the footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}

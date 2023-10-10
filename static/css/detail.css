@@ -1,0 +1,80 @@
+/* Style the title */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style the post date and author */
+p.date {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Style the post content */
+p.post {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Style the "Share this post" link */
+p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Style the comment section */
+.comment {
+    margin-top: 30px;
+}
+
+/* Style the total comments count */
+.comment h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style individual comments */
+.comment-content {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f7f7f7;
+}
+
+.comment-content p.info {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Style the "Add a new comment" section */
+.comment-form {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.comment-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.comment-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}

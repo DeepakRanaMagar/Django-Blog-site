@@ -1,0 +1,62 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font style for the entire page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the page title */
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the content area */
+#content {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the sidebar */
+#sidebar {
+    float: right;
+    width: 300px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style sidebar headings */
+#sidebar h2 {
+    font-size: 24px;
+}
+
+/* Style sidebar paragraphs */
+#sidebar p {
+    font-size: 14px;
+}
+
+/* Add media query for responsive layout */
+@media (max-width: 768px) {
+    #sidebar {
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* Add spacing to the content area for better readability on smaller screens */
+    #content {
+        margin: 20px 0;
+        padding: 20px;
+    }
+}
